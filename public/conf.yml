@@ -1,4 +1,4 @@
- appConfig:
+appConfig:
   theme: dashy-docs
   customCss: >-
     @media (min-width: 1780px) { .home
@@ -37,7 +37,7 @@ pageInfo:
       path: https://dashy.to/docs
     - title: Live Demo
       path: https://demo.dashy.to
-  footerText: ''
+  footerText: ""
   logo: https://i.ibb.co/qWWpD0v/astro-dab-128.png
 sections:
   - name: Code Analysis & Monitoring
@@ -209,26 +209,26 @@ sections:
       sectionLayout: grid
       itemCountX: 2
     items:
-      - title: ''
+      - title: ""
         description: Deployment of master branch
         icon: https://i.ibb.co/cLfVCQP/dev-env.png
         url: https://dev.dashy.to
         statusCheck: true
         id: 0_1288_
-      - title: ''
+      - title: ""
         description: Example instance with demo data
         icon: https://i.ibb.co/bzVTYMx/live-demo.png
         url: https://demo.dashy.to
         statusCheck: true
         statusCheckAllowInsecure: true
         id: 1_1288_
-      - title: ''
+      - title: ""
         description: Documentation and info website
         icon: https://i.ibb.co/f8GxrfC/docs-site.png
         url: https://dashy.to
         statusCheck: true
         id: 2_1288_
-      - title: ''
+      - title: ""
         description: Source code, issues and PRs
         icon: https://i.ibb.co/Lz29Q58/git-hub.png
         url: https://github.com/lissy93/dashy
